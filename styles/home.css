@@ -1,0 +1,19 @@
+#food-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
